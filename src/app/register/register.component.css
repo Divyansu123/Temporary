@@ -1,0 +1,49 @@
+/* Button with off-white color initially */
+.btn-offwhite {
+    background-color: #f8f9fa; /* Off-white background */
+    color: #333; /* Dark text for contrast */
+    border: 1px solid #ccc; /* Light border */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Hover effect for button */
+.btn-offwhite:hover {
+    background-color: #2c3e50; /* Dark background on hover */
+    color: white; /* White text color on hover */
+    border-color: #2c3e50; /* Border changes to match the background */
+}
+
+/* Card styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Card body styling */
+.card-body {
+    padding: 30px;
+}
+
+/* Ensure inputs and button are full-width */
+.form-control, .btn {
+    width: 100%;
+}
+
+/* Card header styling */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Spacing between form fields */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Ensure form container has proper height */
+.container {
+    height: 100vh;
+}

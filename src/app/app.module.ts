@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginRegisterComponent } from './login-register/login-register.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LoginRegisterComponent } from './login-register/login-register.componen
     NavbarComponent,
     LoginComponent,
     RegisterComponent,
-    LoginRegisterComponent
+    LoginRegisterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
