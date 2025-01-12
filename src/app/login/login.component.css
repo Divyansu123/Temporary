@@ -6,9 +6,36 @@
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-/* Hover effect for button */
+/* Hover effect for the login button */
 .btn-offwhite:hover {
     background-color: #2c3e50; /* Dark background on hover */
     color: white; /* White text color on hover */
+    border-color: #2c3e50; /* Border changes to match the background */
+}
+
+/* Forgot Password link style */
+.forgot-password {
+    color: #2c3e50; /* Color for the link */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+    color: #16a085; /* Change to teal color on hover */
+}
+
+/* Go back to Home button style */
+.btn-home {
+    background-color: #f8f9fa; /* Off-white background */
+    color: #333; /* Dark text for contrast */
+    border: 1px solid #ccc; /* Light border */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Hover effect for Go back to Home button */
+.btn-home:hover {
+    background-color: #2c3e50; /* Dark background on hover */
+    color: white; /* White text color */
     border-color: #2c3e50; /* Border changes to match the background */
 }
